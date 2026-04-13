@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "philosophie": "Philosophy",
+    "ueber": "About",
+    "bauweise": "Craft",
+    "instrumente": "Instruments",
+    "kontakt": "Contact"
+  },
+  "hero": {
+    "name": "Michael Dittmann",
+    "subtitle": "Guitar Making",
+    "statement": "Handcrafted concert guitars from selected tonewoods",
+    "cta": "Get in touch"
+  },
+  "philosophy": {
+    "title": "Philosophy",
+    "p1": "Each guitar is born from the conviction that an instrument is more than the sum of its parts. It is a resonating body that breathes — shaped by wood, craftsmanship, and time.",
+    "p2": "My goal is to create instruments that don't just sound — they move. In every step of the building process, years of experience, care, and a deep love for sound come together.",
+    "p3": "Selecting the tonewoods is the first and perhaps most important step. Each wood carries its own character, its own story — and deserves to be heard."
+  },
+  "about": {
+    "title": "About",
+    "p1": "In my workshop in the heart of Germany, I build concert guitars that draw upon a long tradition of guitar making while following my own distinct tonal vision.",
+    "p2": "My path to lutherie began with a deep fascination for wood and sound. After years of learning, traveling, and experimenting, I developed my own approach — shaped by patience, precision, and the desire to give each instrument its own soul.",
+    "p3": "Every guitar that leaves my workshop is a unique piece — built for musicians who seek the extraordinary."
+  },
+  "construction": {
+    "title": "Craft",
+    "tonewood": {
+      "title": "Tonewoods",
+      "text": "Carefully selected and aged over years, the finest woods form the foundation of every guitar. Spruce, cedar, rosewood, and other fine woods are chosen for their tonal quality and character."
+    },
+    "structure": {
+      "title": "Construction",
+      "text": "The bracing and internal structure of each soundboard is individually tuned. This creates an instrument that sounds balanced and clear across all registers — with depth and projection."
+    },
+    "sound": {
+      "title": "Sound Development",
+      "text": "A handcrafted guitar reveals its full voice over the years. Designed from the start for maturation and development, each instrument becomes richer and more complex with time."
+    }
+  },
+  "guitars": {
+    "title": "Instruments",
+    "inquiry": "Inquire about this instrument",
+    "guitar1": {
+      "name": "Concert Guitar I",
+      "description": "An instrument of clear, warm depth. Spruce top with rosewood back and sides. Pronounced bass, singing trebles, and a balanced overall tone."
+    },
+    "guitar2": {
+      "name": "Concert Guitar II",
+      "description": "Cedar top with maple body. An instrument with a velvety touch and surprising projection. Ideal for players seeking warmth and clarity."
+    },
+    "guitar3": {
+      "name": "Concert Guitar III",
+      "description": "Spruce top with Ziricote. Extraordinary in sound and appearance. An instrument of character — powerful, nuanced, and of rare beauty."
+    }
+  },
+  "process": {
+    "title": "Your Path to an Instrument",
+    "p1": "The journey to one of my guitars begins with a personal conversation. I take the time to understand your tonal wishes and expectations.",
+    "p2": "I warmly invite you to try available instruments in my workshop. Only then can you truly feel whether an instrument is right for you.",
+    "p3": "There is no pressure, no rush. A good instrument finds its way — and I'm happy to accompany you on that journey.",
+    "cta": "Schedule a trial session"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "I look forward to hearing from you",
+    "email": "Email",
+    "phone": "Phone",
+    "name": "Your name",
+    "emailField": "Your email address",
+    "message": "Your message",
+    "send": "Send message",
+    "appointment": "Schedule a trial session"
+  },
+  "instagram": {
+    "title": "Insights",
+    "subtitle": "From the workshop",
+    "follow": "Follow on Instagram"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "info": "Information according to § 5 TMG",
+    "name": "Michael Dittmann",
+    "profession": "Master Guitar Maker",
+    "address": "Musterstraße 1\n12345 Musterstadt\nGermany",
+    "contactTitle": "Contact",
+    "phone": "Phone: +49 (0) 123 456789",
+    "emailLabel": "Email: info@dittmann-gitarren.de",
+    "responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
+    "responsiblePerson": "Michael Dittmann\nMusterstraße 1\n12345 Musterstadt",
+    "dispute": "Dispute Resolution",
+    "disputeText": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "overview": {
+      "title": "1. Privacy at a Glance",
+      "text": "The following notes provide a simple overview of what happens to your personal data when you visit this website."
+    },
+    "collection": {
+      "title": "2. Data Collection on this Website",
+      "text": "Data processing on this website is carried out by the website operator. You can find their contact details in the legal notice of this website."
+    },
+    "contactForm": {
+      "title": "3. Contact Form",
+      "text": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provided, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent."
+    },
+    "cookies": {
+      "title": "4. Cookies",
+      "text": "This website does not use cookies for tracking or analytics purposes. Only technically necessary cookies are used that are required for the operation of the site."
+    },
+    "rights": {
+      "title": "5. Your Rights",
+      "text": "You have the right at any time to free information about your stored personal data, its origin and recipients, and the purpose of data processing, as well as a right to correction, blocking, or deletion of this data."
+    }
+  }
+}
