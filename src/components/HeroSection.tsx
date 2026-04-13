@@ -1,15 +1,13 @@
 import { useTranslation } from 'react-i18next';
+import heroBg from '@/assets/hero-bg.jpg';
 
 const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Placeholder image background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-muted/60 via-secondary/40 to-background" />
-      <div className="absolute inset-0 flex items-center justify-center opacity-10">
-        <div className="w-[600px] h-[800px] border border-foreground/20 rounded-sm" />
-      </div>
+      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-background/60" />
 
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <p className="text-xs tracking-[0.35em] uppercase text-muted-foreground mb-6">
