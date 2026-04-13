@@ -5,7 +5,7 @@ const AboutSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="ueber" className="py-32 md:py-44 px-6">
+    <section id="ueber" className="py-32 px-6 md:py-[50px] pt-[75px]">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
         <div className="aspect-[3/4] rounded-sm overflow-hidden border border-border/50">
           <img src={aboutPortrait} alt="Portrait" className="w-full h-full object-cover" />
