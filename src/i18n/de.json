@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "philosophie": "Philosophie",
+    "ueber": "Über mich",
+    "bauweise": "Bauweise",
+    "instrumente": "Instrumente",
+    "kontakt": "Kontakt"
+  },
+  "hero": {
+    "name": "Michael Dittmann",
+    "subtitle": "Gitarrenbau",
+    "statement": "Handgebaute Konzertgitarren aus ausgewählten Tonhölzern",
+    "cta": "Kontakt aufnehmen"
+  },
+  "philosophy": {
+    "title": "Philosophie",
+    "p1": "Jede Gitarre entsteht aus der Überzeugung, dass ein Instrument mehr ist als die Summe seiner Teile. Es ist ein Klangkörper, der atmet – geformt durch Holz, Handwerk und Zeit.",
+    "p2": "Mein Ziel ist es, Instrumente zu schaffen, die nicht nur klingen, sondern berühren. In jedem Schritt des Baus fließen jahrelange Erfahrung, Sorgfalt und eine tiefe Liebe zum Klang zusammen.",
+    "p3": "Die Auswahl der Tonhölzer ist dabei der erste und vielleicht wichtigste Schritt. Jedes Holz trägt seinen eigenen Charakter, seine eigene Geschichte – und verdient es, gehört zu werden."
+  },
+  "about": {
+    "title": "Über mich",
+    "p1": "In meiner Werkstatt im Herzen Deutschlands baue ich Konzertgitarren, die auf eine lange Tradition des Gitarrenbaus zurückgreifen und gleichzeitig meinen ganz eigenen klanglichen Vorstellungen folgen.",
+    "p2": "Mein Weg zum Gitarrenbau begann mit einer tiefen Faszination für Holz und Klang. Nach Jahren des Lernens, Reisens und Experimentierens habe ich meinen eigenen Ansatz entwickelt – geprägt von Geduld, Präzision und dem Wunsch, jedem Instrument eine eigene Seele zu geben.",
+    "p3": "Jede Gitarre, die meine Werkstatt verlässt, ist ein Einzelstück – gebaut für Musikerinnen und Musiker, die das Besondere suchen."
+  },
+  "construction": {
+    "title": "Bauweise",
+    "tonewood": {
+      "title": "Tonhölzer",
+      "text": "Sorgfältig ausgewählte und über Jahre gelagerte Hölzer bilden die Grundlage jeder Gitarre. Fichte, Zeder, Palisander und weitere edle Hölzer werden nach Klangqualität und Charakter ausgewählt."
+    },
+    "structure": {
+      "title": "Konstruktion",
+      "text": "Die Verbalkung und innere Struktur jeder Decke wird individuell abgestimmt. So entsteht ein Instrument, das in allen Lagen ausgewogen und klar klingt – mit Tiefe und Projektion."
+    },
+    "sound": {
+      "title": "Klangentwicklung",
+      "text": "Eine handgebaute Gitarre entfaltet ihren vollen Klang über die Jahre. Von Anfang an angelegt auf Reife und Entwicklung, wird jedes Instrument mit der Zeit reicher und vielschichtiger."
+    }
+  },
+  "guitars": {
+    "title": "Instrumente",
+    "inquiry": "Anfrage zu diesem Instrument",
+    "guitar1": {
+      "name": "Konzertgitarre I",
+      "description": "Ein Instrument von klarer, warmer Tiefe. Fichtendecke mit Palisander-Boden und -Zargen. Ausgeprägte Bässe, singende Höhen und ein ausgewogener Gesamtklang."
+    },
+    "guitar2": {
+      "name": "Konzertgitarre II",
+      "description": "Zederndecke mit Ahorn-Korpus. Ein Instrument mit samtweichem Anschlag und überraschender Projektion. Ideal für Spieler, die Wärme und Klarheit suchen."
+    },
+    "guitar3": {
+      "name": "Konzertgitarre III",
+      "description": "Fichtendecke mit Ziricote. Außergewöhnlich in Klang und Optik. Ein Instrument mit Charakter – kraftvoll, differenziert und von seltener Schönheit."
+    }
+  },
+  "process": {
+    "title": "Ihr Weg zum Instrument",
+    "p1": "Der Weg zu einer meiner Gitarren beginnt mit einem persönlichen Gespräch. Ich nehme mir Zeit, Ihre klanglichen Wünsche und Vorstellungen zu verstehen.",
+    "p2": "Gerne lade ich Sie ein, verfügbare Instrumente in meiner Werkstatt anzuspielen. Nur so lässt sich wirklich erfahren, ob ein Instrument zu Ihnen passt.",
+    "p3": "Es gibt keinen Druck, keine Eile. Ein gutes Instrument findet seinen Weg – und ich begleite Sie gerne dabei.",
+    "cta": "Termin zur Anspielprobe vereinbaren"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Ich freue mich auf Ihre Nachricht",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "name": "Ihr Name",
+    "emailField": "Ihre E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "appointment": "Termin zur Anspielprobe vereinbaren"
+  },
+  "instagram": {
+    "title": "Einblicke",
+    "subtitle": "Aus der Werkstatt",
+    "follow": "Auf Instagram folgen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info": "Angaben gemäß § 5 TMG",
+    "name": "Michael Dittmann",
+    "profession": "Gitarrenbaumeister",
+    "address": "Musterstraße 1\n12345 Musterstadt\nDeutschland",
+    "contactTitle": "Kontakt",
+    "phone": "Telefon: +49 (0) 123 456789",
+    "emailLabel": "E-Mail: info@dittmann-gitarren.de",
+    "responsibility": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+    "responsiblePerson": "Michael Dittmann\nMusterstraße 1\n12345 Musterstadt",
+    "dispute": "Streitschlichtung",
+    "disputeText": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "overview": {
+      "title": "1. Datenschutz auf einen Blick",
+      "text": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen."
+    },
+    "collection": {
+      "title": "2. Datenerfassung auf dieser Website",
+      "text": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen."
+    },
+    "contactForm": {
+      "title": "3. Kontaktformular",
+      "text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+    },
+    "cookies": {
+      "title": "4. Cookies",
+      "text": "Diese Website verwendet keine Cookies zu Tracking- oder Analysezwecken. Es werden lediglich technisch notwendige Cookies eingesetzt, die für den Betrieb der Seite erforderlich sind."
+    },
+    "rights": {
+      "title": "5. Ihre Rechte",
+      "text": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten."
+    }
+  }
+}
