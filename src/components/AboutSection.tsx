@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import aboutPortrait from '@/assets/about-portrait.jpg';
 
 const AboutSection = () => {
   const { t } = useTranslation();
@@ -6,12 +7,8 @@ const AboutSection = () => {
   return (
     <section id="ueber" className="py-32 md:py-44 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
-        {/* Portrait placeholder */}
-        <div className="aspect-[3/4] bg-secondary/60 rounded-sm flex items-center justify-center border border-border/50">
-          <div className="text-center text-muted-foreground/40">
-            <div className="w-20 h-20 rounded-full border-2 border-muted-foreground/20 mx-auto mb-3" />
-            <p className="text-xs tracking-widest uppercase">Portrait</p>
-          </div>
+        <div className="aspect-[3/4] rounded-sm overflow-hidden border border-border/50">
+          <img src={aboutPortrait} alt="Portrait" className="w-full h-full object-cover" />
         </div>
 
         <div>
