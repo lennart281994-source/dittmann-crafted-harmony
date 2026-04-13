@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background/70 opacity-75" />
 
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <p className="text-xs tracking-[0.35em] uppercase text-muted-foreground mb-6">
@@ -16,7 +16,7 @@ const HeroSection = () => {
         <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal tracking-tight text-foreground mb-8 leading-tight">
           {t('hero.name')}
         </h1>
-        <p className="text-base md:text-lg text-muted-foreground font-light max-w-xl mx-auto leading-relaxed">
+        <p className="text-base font-light max-w-xl mx-auto leading-relaxed opacity-100 md:text-[sidebar-primary-foreground] text-sidebar-primary">
           {t('hero.statement')}
         </p>
         <a
