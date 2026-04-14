@@ -32,14 +32,15 @@ const ContactSection = () => {
               <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">{t('contact.phone')}</p>
               <p className="text-foreground text-sm">+49 (0) 123 456789</p>
             </div>
-            <div className="pt-4">
+          </div>
+
+          {/* Form */}
+          <div className="space-y-6">
+            <div>
               <p className="text-xs tracking-widest uppercase text-primary">
                 {t('contact.appointment')}
               </p>
             </div>
-          </div>
-
-          {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label className="text-xs tracking-widest uppercase text-muted-foreground mb-2 block">
@@ -81,6 +82,7 @@ const ContactSection = () => {
               {t('contact.send')}
             </button>
           </form>
+          </div>
         </div>
       </div>
     </section>
