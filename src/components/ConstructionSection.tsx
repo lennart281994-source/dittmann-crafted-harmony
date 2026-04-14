@@ -35,9 +35,11 @@ const ConstructionSection = () => {
               <h3 className="font-serif text-xl text-foreground mb-4 font-normal">
                 {t(`construction.${item.key}.title`)}
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed text-left">
-                {t(`construction.${item.key}.text`)}
-              </p>
+              <div className="text-sm text-muted-foreground leading-relaxed text-left space-y-4">
+                {t(`construction.${item.key}.text`).split('\n\n').map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
