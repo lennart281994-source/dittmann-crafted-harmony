@@ -27,8 +27,8 @@ const Footer = () => {
             <div>
               <p className="font-serif text-lg text-foreground mb-2">Michael Dittmann</p>
               <p className="text-xs text-muted-foreground tracking-widest uppercase">Gitarrenbau</p>
-              <p className="text-xs text-muted-foreground mt-4">info@dittmann-gitarren.de</p>
-              <p className="text-xs text-muted-foreground">+49 (0) 123 456789</p>
+              <p className="text-xs text-muted-foreground mt-4">mail@michaeldittmann.com</p>
+              <p className="text-xs text-muted-foreground">+49 1788944568</p>
             </div>
 
             {/* Navigation */}
