@@ -99,17 +99,17 @@
   },
   "impressum": {
     "title": "Legal Notice",
-    "info": "Information according to § 5 TMG",
-    "name": "Michael Dittmann",
-    "profession": "Master Guitar Maker",
-    "address": "Musterstraße 1\n12345 Musterstadt\nGermany",
-    "contactTitle": "Contact",
-    "phone": "Phone: +49 (0) 123 456789",
-    "emailLabel": "Email: info@dittmann-gitarren.de",
-    "responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
-    "responsiblePerson": "Michael Dittmann\nMusterstraße 1\n12345 Musterstadt",
-    "dispute": "Dispute Resolution",
-    "disputeText": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    "info": "Provider identification according to § 5 DDG",
+    "operatorTitle": "Website operator:",
+    "operatorName": "Michael-Lennart Dittmann",
+    "operatorAddress": "Schulberg 1\n25355 Lutzhorn",
+    "contactTitle": "Contact:",
+    "phone": "Phone: 01788944568",
+    "emailLabel": "Email: lennart281995@web.de",
+    "website": "Website: www.michaeldittmann.com",
+    "taxNote": "According to § 19 UStG, no VAT is charged (small business regulation)",
+    "responsibility": "Responsible for content according to § 18 Abs. 2 MStV:",
+    "responsiblePerson": "Michael-Lennart Dittmann\nSchulberg 1\n25355 Lutzhorn"
   },
   "datenschutz": {
     "title": "Privacy Policy",

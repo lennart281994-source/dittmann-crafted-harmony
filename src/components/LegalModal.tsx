@@ -26,24 +26,22 @@ const LegalModal = ({ type, open, onOpenChange }: LegalModalProps) => {
 
         {type === 'impressum' ? (
           <div className="space-y-6 text-sm text-muted-foreground leading-relaxed">
+            <p className="font-semibold text-foreground">{t('impressum.info')}</p>
             <div>
-              <p className="text-xs tracking-widest uppercase text-foreground mb-2">{t('impressum.info')}</p>
-              <p className="whitespace-pre-line">{t('impressum.name')}</p>
-              <p>{t('impressum.profession')}</p>
-              <p className="whitespace-pre-line mt-2">{t('impressum.address')}</p>
+              <p className="font-semibold text-foreground">{t('impressum.operatorTitle')}</p>
+              <p>{t('impressum.operatorName')}</p>
+              <p className="whitespace-pre-line">{t('impressum.operatorAddress')}</p>
             </div>
             <div>
-              <p className="text-xs tracking-widest uppercase text-foreground mb-2">{t('impressum.contactTitle')}</p>
+              <p className="font-semibold text-foreground">{t('impressum.contactTitle')}</p>
               <p>{t('impressum.phone')}</p>
               <p>{t('impressum.emailLabel')}</p>
+              <p>{t('impressum.website')}</p>
             </div>
+            <p className="italic">{t('impressum.taxNote')}</p>
             <div>
-              <p className="text-xs tracking-widest uppercase text-foreground mb-2">{t('impressum.responsibility')}</p>
+              <p className="font-semibold text-foreground">{t('impressum.responsibility')}</p>
               <p className="whitespace-pre-line">{t('impressum.responsiblePerson')}</p>
-            </div>
-            <div>
-              <p className="text-xs tracking-widest uppercase text-foreground mb-2">{t('impressum.dispute')}</p>
-              <p>{t('impressum.disputeText')}</p>
             </div>
           </div>
         ) : (
