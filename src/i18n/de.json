@@ -3,7 +3,7 @@
     "philosophie": "Philosophie",
     "ueber": "Über mich",
     "bauweise": "Bauweise",
-    "instrumente": "Instrumente",
+    "instrumente": "Gitarren",
     "kontakt": "Kontakt"
   },
   "hero": {
@@ -40,7 +40,7 @@
     }
   },
   "guitars": {
-    "title": "Instrumente",
+    "title": "Verfügbare Gitarren",
     "inquiry": "Anfrage zu diesem Instrument",
     "guitar1": {
       "name": "Konzertgitarre",
