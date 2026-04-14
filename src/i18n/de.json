@@ -99,17 +99,17 @@
   },
   "impressum": {
     "title": "Impressum",
-    "info": "Angaben gemäß § 5 TMG",
-    "name": "Michael Dittmann",
-    "profession": "Gitarrenbaumeister",
-    "address": "Musterstraße 1\n12345 Musterstadt\nDeutschland",
-    "contactTitle": "Kontakt",
-    "phone": "Telefon: +49 (0) 123 456789",
-    "emailLabel": "E-Mail: info@dittmann-gitarren.de",
-    "responsibility": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
-    "responsiblePerson": "Michael Dittmann\nMusterstraße 1\n12345 Musterstadt",
-    "dispute": "Streitschlichtung",
-    "disputeText": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    "info": "Anbieterkennzeichnung gemäß § 5 DDG",
+    "operatorTitle": "Betreiber der Website:",
+    "operatorName": "Michael-Lennart Dittmann",
+    "operatorAddress": "Schulberg 1\n25355 Lutzhorn",
+    "contactTitle": "Kontakt:",
+    "phone": "Telefon: 01788944568",
+    "emailLabel": "E-Mail: lennart281995@web.de",
+    "website": "Website: www.michaeldittmann.com",
+    "taxNote": "Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmer-Regelung)",
+    "responsibility": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:",
+    "responsiblePerson": "Michael-Lennart Dittmann\nSchulberg 1\n25355 Lutzhorn"
   },
   "datenschutz": {
     "title": "Datenschutzerklärung",
