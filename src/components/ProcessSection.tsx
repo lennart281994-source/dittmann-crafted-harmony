@@ -43,7 +43,7 @@ const ProcessSection = () => {
           <h3 className="font-serif text-xl md:text-2xl text-foreground mb-4 font-normal">
             {t('process.contact.title')}
           </h3>
-          <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+          <p className="text-muted-foreground leading-relaxed text-sm md:text-base whitespace-pre-line">
             {t('process.contact.text')}
           </p>
         </div>
