@@ -96,7 +96,7 @@ const GuitarsSection = () => {
                 <h3 className="font-serif text-2xl text-foreground mb-6 font-normal">
                   {t(`guitars.${guitar.key}.name`)}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-8">
+                <p className="text-sm text-muted-foreground leading-relaxed mb-8 whitespace-pre-line">
                   {t(`guitars.${guitar.key}.description`)}
                 </p>
                 <a
