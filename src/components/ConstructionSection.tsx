@@ -15,7 +15,7 @@ const ConstructionSection = () => {
   return (
     <section id="bauweise" className="py-32 px-6 bg-secondary/30 md:py-0">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-20 font-normal text-center">
+        <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-20 font-normal text-center pt-[50px]">
           {t('construction.title')}
         </h2>
 
