@@ -5,6 +5,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
+import DatenschutzContent from './DatenschutzContent';
 
 interface LegalModalProps {
   type: 'impressum' | 'datenschutz';
@@ -45,16 +46,7 @@ const LegalModal = ({ type, open, onOpenChange }: LegalModalProps) => {
             </div>
           </div>
         ) : (
-          <div className="space-y-8 text-sm text-muted-foreground leading-relaxed">
-            {['overview', 'collection', 'contactForm', 'cookies', 'rights'].map((section) => (
-              <div key={section}>
-                <h3 className="text-foreground font-serif text-base mb-2">
-                  {t(`datenschutz.${section}.title`)}
-                </h3>
-                <p>{t(`datenschutz.${section}.text`)}</p>
-              </div>
-            ))}
-          </div>
+          <DatenschutzContent />
         )}
       </DialogContent>
     </Dialog>
