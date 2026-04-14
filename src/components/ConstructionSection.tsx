@@ -1,19 +1,15 @@
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
-
-const placeholderImages = [
-  '/placeholder-tonewood.jpg',
-  '/placeholder-structure.jpg',
-  '/placeholder-sound.jpg',
-];
+import tonewoodImg from '@/assets/tonewood.jpg';
+import constructionImg from '@/assets/construction.jpg';
+import playabilityImg from '@/assets/playability.jpg';
 
 const ConstructionSection = () => {
   const { t } = useTranslation();
 
   const items = [
-    { key: 'tonewood', img: placeholderImages[0] },
-    { key: 'structure', img: placeholderImages[1] },
-    { key: 'sound', img: placeholderImages[2] },
+    { key: 'tonewood', img: tonewoodImg },
+    { key: 'structure', img: constructionImg },
+    { key: 'sound', img: playabilityImg },
   ];
 
   return (
@@ -31,9 +27,9 @@ const ConstructionSection = () => {
                   src={item.img}
                   alt={t(`construction.${item.key}.title`)}
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).style.display = 'none';
-                  }}
+                  loading="lazy"
+                  width={1024}
+                  height={768}
                 />
               </div>
               <h3 className="font-serif text-xl text-foreground mb-4 font-normal">
