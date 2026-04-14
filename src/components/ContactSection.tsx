@@ -26,11 +26,11 @@ const ContactSection = () => {
           <div className="space-y-8">
             <div>
               <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">{t('contact.email')}</p>
-              <p className="text-foreground text-sm">info@dittmann-gitarren.de</p>
+              <p className="text-foreground text-sm">mail@michaeldittmann.com</p>
             </div>
             <div>
               <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">{t('contact.phone')}</p>
-              <p className="text-foreground text-sm">+49 (0) 123 456789</p>
+              <p className="text-foreground text-sm">+49 1788944568</p>
             </div>
           </div>
 
