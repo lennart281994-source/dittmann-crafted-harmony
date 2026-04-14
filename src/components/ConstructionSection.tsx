@@ -36,9 +36,11 @@ const ConstructionSection = () => {
                 {t(`construction.${item.key}.title`)}
               </h3>
               <div className="text-sm text-muted-foreground leading-relaxed text-left space-y-4">
-                {t(`construction.${item.key}.text`).split('\n\n').map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
-                ))}
+                {t(`construction.${item.key}.text`).split('\n\n').map((paragraph, i) => {
+                  const isBold = paragraph.startsWith('**') && paragraph.endsWith('**');
+                  const text = isBold ? paragraph.slice(2, -2) : paragraph;
+                  return <p key={i} className={isBold ? 'font-semibold text-foreground' : ''}>{text}</p>;
+                })}
               </div>
             </div>
           ))}
