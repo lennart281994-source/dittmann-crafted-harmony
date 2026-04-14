@@ -1,10 +1,20 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-
-// TODO: Replace with your SnapWidget widget ID from https://snapwidget.com
-const SNAPWIDGET_ID = '';
 
 const InstagramSection = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    // Load Instagram embed script
+    if (!(window as any).instgrm) {
+      const script = document.createElement('script');
+      script.src = 'https://www.instagram.com/embed.js';
+      script.async = true;
+      document.body.appendChild(script);
+    } else {
+      (window as any).instgrm.Embeds.process();
+    }
+  }, []);
 
   return (
     <section className="py-32 md:py-44 px-6 bg-secondary/30">
@@ -16,28 +26,21 @@ const InstagramSection = () => {
           {t('instagram.title')}
         </h2>
 
-        {SNAPWIDGET_ID ? (
-          <div className="w-full">
-            <iframe
-              src={`https://snapwidget.com/embed/${SNAPWIDGET_ID}`}
-              className="w-full border-0"
-              style={{ height: '400px' }}
-              allowTransparency
-              title="Instagram Feed @dittmann.guitars"
-            />
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div
-                key={i}
-                className="aspect-square bg-secondary/80 rounded-sm border border-border/30 flex items-center justify-center"
-              >
-                <div className="w-6 h-6 rounded-full border border-muted-foreground/15" />
-              </div>
-            ))}
-          </div>
-        )}
+        <div className="flex justify-center">
+          <blockquote
+            className="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DI0RnGFN3oE/"
+            data-instgrm-version="14"
+            style={{
+              background: 'transparent',
+              border: 0,
+              margin: '0 auto',
+              maxWidth: '540px',
+              width: '100%',
+              padding: 0,
+            }}
+          />
+        </div>
 
         <a
           href="https://instagram.com/dittmann.guitars"
