@@ -12,7 +12,6 @@ const Footer = () => {
   };
 
   const navItems = [
-    { key: 'philosophie', href: '#philosophie' },
     { key: 'ueber', href: '#ueber' },
     { key: 'bauweise', href: '#bauweise' },
     { key: 'instrumente', href: '#instrumente' },
