@@ -13,7 +13,7 @@ const ConstructionSection = () => {
   ];
 
   return (
-    <section id="bauweise" className="py-32 md:py-44 px-6 bg-secondary/30">
+    <section id="bauweise" className="py-32 px-6 bg-secondary/30 md:py-0">
       <div className="max-w-5xl mx-auto">
         <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-20 font-normal text-center">
           {t('construction.title')}
@@ -35,7 +35,7 @@ const ConstructionSection = () => {
               <h3 className="font-serif text-xl text-foreground mb-4 font-normal">
                 {t(`construction.${item.key}.title`)}
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm text-muted-foreground leading-relaxed text-left">
                 {t(`construction.${item.key}.text`)}
               </p>
             </div>
