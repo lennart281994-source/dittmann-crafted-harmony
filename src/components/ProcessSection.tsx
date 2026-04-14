@@ -25,17 +25,18 @@ const ProcessSection = () => {
           <h3 className="font-serif text-xl md:text-2xl text-foreground mb-4 font-normal">
             {t('process.custom.title')}
           </h3>
-          <div className="space-y-4 text-muted-foreground leading-relaxed text-sm md:text-base">
+          <div className="text-muted-foreground leading-relaxed text-sm md:text-base space-y-6">
             <p>{t('process.custom.p1')}</p>
-            <p>{t('process.custom.p2')}</p>
-            <p>{t('process.custom.p3')}</p>
-            <p>{t('process.custom.p4')}</p>
+            <p>
+              {t('process.custom.p2')}
+              <br />
+              {t('process.custom.p3')}
+              <br />
+              {t('process.custom.p4')}
+            </p>
             <p>{t('process.custom.p5')}</p>
           </div>
         </div>
-
-        {/* Trennlinie */}
-        <div className="w-16 h-px bg-foreground/20 mx-auto mb-16" />
 
         {/* Kennenlernen */}
         <div className="mb-12">
