@@ -1,5 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
+// TODO: Replace with your SnapWidget widget ID from https://snapwidget.com
+const SNAPWIDGET_ID = '';
+
 const InstagramSection = () => {
   const { t } = useTranslation();
 
@@ -13,20 +16,31 @@ const InstagramSection = () => {
           {t('instagram.title')}
         </h2>
 
-        {/* Placeholder grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <div
-              key={i}
-              className="aspect-square bg-secondary/80 rounded-sm border border-border/30 flex items-center justify-center"
-            >
-              <div className="w-6 h-6 rounded-full border border-muted-foreground/15" />
-            </div>
-          ))}
-        </div>
+        {SNAPWIDGET_ID ? (
+          <div className="w-full">
+            <iframe
+              src={`https://snapwidget.com/embed/${SNAPWIDGET_ID}`}
+              className="w-full border-0"
+              style={{ height: '400px' }}
+              allowTransparency
+              title="Instagram Feed @dittmann.guitars"
+            />
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div
+                key={i}
+                className="aspect-square bg-secondary/80 rounded-sm border border-border/30 flex items-center justify-center"
+              >
+                <div className="w-6 h-6 rounded-full border border-muted-foreground/15" />
+              </div>
+            ))}
+          </div>
+        )}
 
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/dittmann.guitars"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mt-12 text-xs tracking-widest uppercase text-muted-foreground border-b border-muted-foreground/30 pb-1 hover:text-foreground transition-colors"
