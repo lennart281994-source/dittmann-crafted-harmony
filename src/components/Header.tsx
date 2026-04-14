@@ -30,7 +30,7 @@ const Header = () => {
         scrolled ? 'bg-background/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20 my-0 py-0">
         <a href="#hero" className="font-serif text-sm md:text-base tracking-widest uppercase text-foreground">
           Dittmann
         </a>
@@ -41,7 +41,7 @@ const Header = () => {
             <a
               key={item.key}
               href={item.href}
-              className="text-xs tracking-widest uppercase transition-colors font-extrabold text-gray-500"
+              className="text-xs tracking-widest uppercase transition-colors font-extrabold text-popover-foreground"
             >
               {t(`nav.${item.key}`)}
             </a>
