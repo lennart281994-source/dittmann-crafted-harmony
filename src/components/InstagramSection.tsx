@@ -29,7 +29,7 @@ const InstagramSection = () => {
         <div className="flex justify-center">
           <blockquote
             className="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DI0RnGFN3oE/"
+            data-instgrm-permalink="https://www.instagram.com/reel/DWT_RBYjOi7/?utm_source=ig_embed&utm_campaign=loading"
             data-instgrm-version="14"
             style={{
               background: 'transparent',
