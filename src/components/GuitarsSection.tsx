@@ -1,13 +1,64 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import guitar1Img from '@/assets/guitar1.png';
+
+const GuitarImageCarousel = ({ images, alt }: { images: string[]; alt: string }) => {
+  const [current, setCurrent] = useState(0);
+
+  if (images.length === 0) return null;
+
+  return (
+    <div className="relative group">
+      <div className="rounded-sm overflow-hidden border border-border/30">
+        <img
+          src={images[current]}
+          alt={`${alt} ${current + 1}`}
+          className="w-full h-auto object-contain"
+          loading="lazy"
+        />
+      </div>
+      {images.length > 1 && (
+        <>
+          <button
+            onClick={() => setCurrent((p) => (p - 1 + images.length) % images.length)}
+            className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background/80 border border-border/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+            aria-label="Vorheriges Bild"
+          >
+            <ChevronLeft className="w-4 h-4 text-foreground" />
+          </button>
+          <button
+            onClick={() => setCurrent((p) => (p + 1) % images.length)}
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background/80 border border-border/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+            aria-label="Nächstes Bild"
+          >
+            <ChevronRight className="w-4 h-4 text-foreground" />
+          </button>
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+            {images.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                className={`w-1.5 h-1.5 rounded-full transition-colors ${
+                  i === current ? 'bg-foreground' : 'bg-foreground/30'
+                }`}
+                aria-label={`Bild ${i + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
 
 const GuitarsSection = () => {
   const { t } = useTranslation();
 
   const guitars = [
-    { key: 'guitar1', img: guitar1Img },
-    { key: 'guitar2', img: null },
-    { key: 'guitar3', img: null },
+    { key: 'guitar1', images: [guitar1Img] },
+    { key: 'guitar2', images: [] },
+    { key: 'guitar3', images: [] },
   ];
 
   return (
@@ -26,15 +77,11 @@ const GuitarsSection = () => {
               }`}
             >
               <div className={i % 2 === 1 ? 'md:order-2' : ''}>
-                {guitar.img ? (
-                  <div className="aspect-[4/5] rounded-sm overflow-hidden border border-border/30">
-                    <img
-                      src={guitar.img}
-                      alt={t(`guitars.${guitar.key}.name`)}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
+                {guitar.images.length > 0 ? (
+                  <GuitarImageCarousel
+                    images={guitar.images}
+                    alt={t(`guitars.${guitar.key}.name`)}
+                  />
                 ) : (
                   <div className="aspect-[4/5] bg-secondary/50 rounded-sm flex items-center justify-center border border-border/30">
                     <div className="text-center text-muted-foreground/30">
