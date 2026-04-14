@@ -6,8 +6,8 @@ const HeroSection = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full rounded-none pb-0 text-gray-600 my-0 mx-0 py-[75px] pt-0 border-0 object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background/70 mx-[25px] my-[175px] opacity-50" />
+      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full rounded-none pb-0 text-gray-600 mx-0 py-[75px] pt-0 border-0 object-cover my-[60px] bg-accent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background/70 opacity-50 text-secondary-foreground my-[200px] mx-[50px] border-muted-foreground bg-secondary rounded-xl" />
 
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <p className="tracking-[0.35em] uppercase mb-6 text-primary-foreground text-lg">
