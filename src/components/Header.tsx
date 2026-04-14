@@ -41,7 +41,7 @@ const Header = () => {
             <a
               key={item.key}
               href={item.href}
-              className="text-xs tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs tracking-widest uppercase transition-colors font-extrabold text-gray-500"
             >
               {t(`nav.${item.key}`)}
             </a>
