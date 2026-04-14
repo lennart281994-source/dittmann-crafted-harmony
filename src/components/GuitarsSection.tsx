@@ -58,7 +58,6 @@ const GuitarsSection = () => {
   const guitars = [
     { key: 'guitar1', images: [guitar1Img] },
     { key: 'guitar2', images: [] },
-    { key: 'guitar3', images: [] },
   ];
 
   return (
