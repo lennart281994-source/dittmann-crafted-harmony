@@ -1,12 +1,19 @@
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
+
+const placeholderImages = [
+  '/placeholder-tonewood.jpg',
+  '/placeholder-structure.jpg',
+  '/placeholder-sound.jpg',
+];
 
 const ConstructionSection = () => {
   const { t } = useTranslation();
 
   const items = [
-    { key: 'tonewood' },
-    { key: 'structure' },
-    { key: 'sound' },
+    { key: 'tonewood', img: placeholderImages[0] },
+    { key: 'structure', img: placeholderImages[1] },
+    { key: 'sound', img: placeholderImages[2] },
   ];
 
   return (
@@ -19,7 +26,16 @@ const ConstructionSection = () => {
         <div className="grid md:grid-cols-3 gap-12 md:gap-16">
           {items.map((item) => (
             <div key={item.key} className="text-center md:text-left">
-              <div className="w-px h-12 bg-primary/40 mx-auto md:mx-0 mb-8" />
+              <div className="w-full aspect-[4/3] bg-muted/50 rounded overflow-hidden mb-8">
+                <img
+                  src={item.img}
+                  alt={t(`construction.${item.key}.title`)}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }}
+                />
+              </div>
               <h3 className="font-serif text-xl text-foreground mb-4 font-normal">
                 {t(`construction.${item.key}.title`)}
               </h3>
