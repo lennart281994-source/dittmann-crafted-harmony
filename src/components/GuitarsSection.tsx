@@ -92,10 +92,15 @@ const GuitarsSection = () => {
               </div>
 
               <div className={i % 2 === 1 ? 'md:order-1' : ''}>
-                <h3 className="font-serif text-2xl text-foreground mb-6 font-normal">
+                <h3 className="font-serif text-2xl text-foreground mb-4 font-normal">
                   {t(`guitars.${guitar.key}.name`)}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-8 whitespace-pre-line">
+                {t(`guitars.${guitar.key}.blurb`, { defaultValue: '' }) && (
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+                    {t(`guitars.${guitar.key}.blurb`)}
+                  </p>
+                )}
+                <p className="text-sm text-muted-foreground/70 leading-relaxed mb-8 whitespace-pre-line">
                   {t(`guitars.${guitar.key}.description`)}
                 </p>
                 <a
