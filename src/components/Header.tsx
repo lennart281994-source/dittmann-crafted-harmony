@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '@/assets/logo.jpeg';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
@@ -17,7 +18,6 @@ const Header = () => {
   };
 
   const navItems = [
-    { key: 'philosophie', href: '#philosophie' },
     { key: 'ueber', href: '#ueber' },
     { key: 'bauweise', href: '#bauweise' },
     { key: 'instrumente', href: '#instrumente' },
@@ -31,8 +31,8 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20 my-0 py-0">
-        <a href="#hero" className="font-serif text-sm md:text-base tracking-widest uppercase text-foreground">
-          Dittmann
+        <a href="#hero">
+          <img src={logo} alt="Dittmann Gitarrenbau" className="h-10 md:h-14 w-auto rounded-sm" />
         </a>
 
         {/* Desktop nav */}
