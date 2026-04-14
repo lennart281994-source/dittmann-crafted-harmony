@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '@/assets/logo.jpeg';
+
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
@@ -31,9 +31,7 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20 my-0 py-0">
-        <a href="#hero">
-          <img src={logo} alt="Dittmann Gitarrenbau" className="h-10 md:h-14 w-auto rounded-sm" />
-        </a>
+        <div />
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
