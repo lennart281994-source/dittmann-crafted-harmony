@@ -57,10 +57,23 @@
   },
   "process": {
     "title": "Your Path to an Instrument",
-    "p1": "The journey to one of my guitars begins with a personal conversation. I take the time to understand your tonal wishes and expectations.",
-    "p2": "I warmly invite you to try available instruments in my workshop. Only then can you truly feel whether an instrument is right for you.",
-    "p3": "There is no pressure, no rush. A good instrument finds its way — and I'm happy to accompany you on that journey.",
-    "cta": "Schedule a trial session"
+    "experience": {
+      "title": "Experience",
+      "text": "My available instruments can be tried at leisure by appointment at Michael Wichmann's shop in Hamburg or in 19294 Malliß."
+    },
+    "custom": {
+      "title": "Custom Build",
+      "p1": "I also build guitars individually tailored to you.",
+      "p2": "In a conversation — by phone or in person — we discuss your preferences and the various possibilities.",
+      "p3": "After the decision, the selection of woods follows.",
+      "p4": "Currently, the build time is approximately three months.",
+      "p5": "My work is accompanied by Michael Wichmann, with half a century of experience in guitar making."
+    },
+    "contact": {
+      "title": "Getting to Know",
+      "text": "Whether an existing instrument or a new guitar: Write to me or give me a call. I look forward to the exchange."
+    },
+    "cta": "Get in touch"
   },
   "contact": {
     "title": "Contact",

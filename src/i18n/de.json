@@ -57,10 +57,23 @@
   },
   "process": {
     "title": "Ihr Weg zum Instrument",
-    "p1": "Der Weg zu einer meiner Gitarren beginnt mit einem persönlichen Gespräch. Ich nehme mir Zeit, Ihre klanglichen Wünsche und Vorstellungen zu verstehen.",
-    "p2": "Gerne lade ich Sie ein, verfügbare Instrumente in meiner Werkstatt anzuspielen. Nur so lässt sich wirklich erfahren, ob ein Instrument zu Ihnen passt.",
-    "p3": "Es gibt keinen Druck, keine Eile. Ein gutes Instrument findet seinen Weg – und ich begleite Sie gerne dabei.",
-    "cta": "Termin zur Anspielprobe vereinbaren"
+    "experience": {
+      "title": "Erleben",
+      "text": "Meine verfügbaren Instrumente können nach Absprache im Laden von Michael Wichmann in Hamburg oder in 19294 Malliß in Ruhe angespielt werden."
+    },
+    "custom": {
+      "title": "Individuelle Anfertigung",
+      "p1": "Gerne baue ich auch Gitarren individuell auf Sie abgestimmt.",
+      "p2": "In einem Gespräch – telefonisch oder vor Ort – klären wir Ihre Vorstellungen und die verschiedenen Möglichkeiten.",
+      "p3": "Nach der Entscheidung folgt die Auswahl der Hölzer.",
+      "p4": "Aktuell beträgt die Bauzeit etwa drei Monate.",
+      "p5": "Meine Arbeit wird von Michael Wichmann, mit einem halben Jahrhundert Erfahrung im Gitarrenbau, begleitet."
+    },
+    "contact": {
+      "title": "Kennenlernen",
+      "text": "Ob bestehendes Instrument oder eine neue Gitarre: Schreiben Sie mir oder rufen Sie mich an. Ich freue mich auf den Austausch."
+    },
+    "cta": "Kontakt aufnehmen"
   },
   "contact": {
     "title": "Kontakt",
