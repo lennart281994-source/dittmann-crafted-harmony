@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import tonewoodImg from '@/assets/tonewood.png';
 import constructionImg from '@/assets/construction.png';
-import playabilityImg from '@/assets/playability.png';
+import playabilityImg from '@/assets/dd8d9831-f076-494e-b7d3-d98c2baa4076.png';
 
 const ConstructionSection = () => {
   const { t } = useTranslation();
