@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/dittmann-crafted-harmony/",
+  base: mode === "production" ? "/dittmann-crafted-harmony/" : "/",
   server: {
     host: "::",
     port: 8080,
