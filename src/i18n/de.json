@@ -1,90 +1,96 @@
 {
   "nav": {
-    "home": "Start",
     "philosophie": "Philosophie",
     "ueber": "Über mich",
-    "bauweise": "Werkstatt",
-    "instrumente": "Instrumente",
+    "bauweise": "Bauweise",
+    "instrumente": "Gitarren",
     "kontakt": "Kontakt"
   },
-  "home": {
-    "subtitle": "Gitarrenbau",
+  "hero": {
     "name": "Michael Dittmann",
-    "line": "Stille, in Holz gefasst.",
-    "philosophyTeaser": "Ein Instrument als stiller Raum.\nKlang, der zu sich selbst zurückführt.",
-    "philosophyLink": "Philosophie",
-    "guitarsLabel": "Instrumente",
-    "guitar1Tease": "Hell, klar, unmittelbar.",
-    "guitar2Tease": "Warm, samten, weit.",
-    "guitarsLink": "Alle Instrumente",
-    "contactLabel": "Kontakt",
-    "contactTeaser": "Jedes Instrument beginnt mit einem Gespräch.",
-    "contactLink": "Schreiben"
+    "subtitle": "Gitarrenbau",
+    "statement": "Handgebaute Konzertgitarren",
+    "cta": "Kontakt aufnehmen"
   },
   "philosophy": {
     "title": "Philosophie",
-    "lead": "Ein Instrument als stiller Raum.",
     "p1": "Jedes Stück Holz hat seinen eigenen Charakter.",
-    "p2": "Daraus ein Instrument zu formen, das den Spielenden Raum gibt — das ist mein Anliegen.",
-    "p3": "Die Basis bilden ausgewählte Tonhölzer aus der Sammlung von Michael Wichmann."
+    "p2": "Hieraus ein Instrument zu formen, das den Spielenden Raum zur klanglichen Entfaltung gibt, ist der Grundgedanke meiner Arbeit.",
+    "p3": "Die Basis bilden ausgewählte Tonhölzer, die sich seit Jahrzehnten in der Sammlung von Michael Wichmann befinden."
   },
   "about": {
     "title": "Über mich",
-    "lead": "Hinter jedem Instrument ein Mensch.",
-    "p1": "Meine Faszination für die klassische Gitarre begann in Asturien, im Norden Spaniens.",
-    "p2": "Der Klang einer guten Gitarre führt mich zurück an diesen Ort. Im Bauen suche ich meinen eigenen Zugang dazu.",
-    "p3": "Heute lerne und arbeite ich in der Werkstatt von Michael Wichmann.",
-    "signature": "Michael Dittmann"
+    "p1": "Meine Faszination für die klassische Gitarre begann während meiner Zeit in Asturien im Norden Spaniens, wo ich auf einem Gnadenhof für Esel gearbeitet habe.",
+    "p2": "Der Klang einer guten Gitarre berührt mich immer wieder und führt mich zurück an diesen Ort. Im Gitarrenbau suche ich meinen eigenen Zugang zu diesem Klang.",
+    "p3": "Nach ersten Instrumenten, die aus Neugier entstanden, führte mich mein Weg zu Michael Wichmann.\nSeitdem arbeite und lerne ich in seiner Werkstatt und entwickle dort meine eigene klangliche Handschrift im Gitarrenbau"
   },
   "construction": {
-    "title": "Werkstatt",
-    "lead": "Material. Konstruktion. Hand.",
+    "title": "Bauweise",
     "tonewood": {
       "title": "Tonhölzer",
-      "text": "Fichte oder Zeder für die Decke. Heimische und tropische Hölzer für Boden und Zargen — aus dem über Jahrzehnte gewachsenen Bestand von Michael Wichmann."
+      "text": "​Jedes Stück Holz bringt eigene Eigenschaften mit, die im Instrument berücksichtigt werden.\n\n\nFür die Decke kommen Fichte oder Zeder zum Einsatz, für Boden und Zargen sowohl tropische als auch heimische Hölzer aus dem über Jahrzehnte gewachsenen Bestand von Michael Wichmann.\n\nAusgewählte Tonhölzer bilden die Grundlage jeder Gitarre."
     },
     "structure": {
       "title": "Konstruktion",
-      "text": "Traditionelle spanische Bauweise, leicht gebaut, hoch schwingungsfähig.\nVon Hand mit Schellack poliert."
+      "text": "Die Bauweise orientiert sich an der traditionellen spanischen Gitarrenkonstruktion und wird durch eigene Ansätze sowie den gezielten Einsatz moderner Messmethoden weiterentwickelt.\n\nEin leicht gebautes Instrument mit hoher Schwingungsfähigkeit steht im Mittelpunkt und sorgt für eine direkte Ansprache und einen offenen Klang.\n\n**Die Oberflächen werden von Hand mit Schellack poliert.**"
     },
     "sound": {
       "title": "Spielbarkeit",
-      "text": "Jede Komponente auf die Spielenden abgestimmt. Direkte Ansprache, leichter Zugang."
+      "text": "Damit eine Gitarre zu einem stimmigen Instrument wird, passe ich alle Komponenten so aufeinander ab, dass sich der Klang frei entfalten kann.\n\nZentraler Punkt ist dabei die individuelle Abstimmung auf die Bedürfnisse der Spielenden und eine leichte Spielbarkeit."
     }
   },
   "guitars": {
-    "title": "Instrumente",
-    "lead": "Jede Gitarre, ein eigener Klang.",
-    "specsLabel": "Spezifikationen",
-    "inquiry": "Anfrage",
+    "title": "Verfügbare Gitarren",
+    "inquiry": "Anfrage zu diesem Instrument",
     "guitar1": {
       "name": "Konzertgitarre",
-      "blurb": "Hell, klar, unmittelbar. Jede Nuance hörbar.",
-      "description": "Decke: Fichte\nBoden & Zargen: Vogelaugen-Ahorn\nMensur: 640 mm\nSattel: 52 mm\nForm und Beleistung nach Torres FE19\nSchellack Handpolitur"
+      "blurb": "Ein heller, klarer Klang mit feiner Ansprache. Leicht gebaut, reagiert sie unmittelbar und macht jede Nuance hörbar.",
+      "description": "Decke: Fichte\nBoden & Zargen: Vogelaugen-Ahorn\nMensur: 640 mm\nSattel: 52mm\nForm und Beleistung nach Torres FE19\nSchellack Handpolitur"
     },
     "guitar2": {
       "name": "Konzertgitarre II",
-      "blurb": "Warm, samten, mit überraschender Projektion.",
-      "description": "Decke: Zeder\nBoden & Zargen: Ahorn\nSchellack Handpolitur"
+      "description": "Zederndecke mit Ahorn-Korpus. Ein Instrument mit samtweichem Anschlag und überraschender Projektion. Ideal für Spieler, die Wärme und Klarheit suchen."
     },
     "guitar3": {
       "name": "Konzertgitarre III",
-      "blurb": "Kraftvoll, differenziert, von seltener Schönheit.",
-      "description": "Decke: Fichte\nBoden & Zargen: Ziricote\nSchellack Handpolitur"
+      "description": "Fichtendecke mit Ziricote. Außergewöhnlich in Klang und Optik. Ein Instrument mit Charakter – kraftvoll, differenziert und von seltener Schönheit."
     }
+  },
+  "process": {
+    "title": "Ihr Weg zum Instrument",
+    "experience": {
+      "title": "Erleben",
+      "text": "Meine verfügbaren Instrumente können nach Absprache im Laden von Michael Wichmann in Hamburg oder in 19294 Malliß in Ruhe angespielt werden."
+    },
+    "custom": {
+      "title": "Individuelle Anfertigung",
+      "p1": "Gerne baue ich auch Gitarren individuell auf Sie abgestimmt.",
+      "p2": "In einem Gespräch – telefonisch oder vor Ort – klären wir Ihre Vorstellungen und die verschiedenen Möglichkeiten.",
+      "p3": "Nach der Entscheidung folgt die Auswahl der Hölzer.",
+      "p4": "Aktuell beträgt die Bauzeit etwa drei Monate.",
+      "p5": "Meine Arbeit wird von Michael Wichmann, mit einem halben Jahrhundert Erfahrung im Gitarrenbau, begleitet."
+    },
+    "contact": {
+      "title": "Kennenlernen",
+      "text": "Am Anfang steht immer ein Gespräch.\nGanz gleich, ob Sie sich für ein bestehendes Instrument interessieren oder ein neues anfertigen lassen möchten: Schreiben Sie mir oder rufen Sie mich an."
+    },
+    "cta": "Kontakt aufnehmen"
   },
   "contact": {
     "title": "Kontakt",
-    "lead": "Am Anfang steht ein Gespräch.",
-    "subtitle": "Persönlich, in Ruhe.",
+    "subtitle": "Ich freue mich auf Ihre Nachricht",
     "email": "E-Mail",
     "phone": "Telefon",
-    "name": "Name",
-    "emailField": "E-Mail",
-    "message": "Nachricht",
-    "send": "Senden",
-    "appointment": "Schreiben Sie mir",
-    "studioNote": "Instrumente nach Absprache anspielbar in Hamburg oder Malliß."
+    "name": "Ihr Name",
+    "emailField": "Ihre E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "appointment": "Kontakt aufnehmen"
+  },
+  "instagram": {
+    "title": "Einblicke",
+    "subtitle": "Aus der Werkstatt",
+    "follow": "Auf Instagram folgen"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten",
