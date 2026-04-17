@@ -1,10 +1,25 @@
 {
   "nav": {
+    "home": "Start",
     "philosophie": "Philosophie",
     "ueber": "Über mich",
-    "bauweise": "Bauweise",
-    "instrumente": "Gitarren",
+    "bauweise": "Werkstatt",
+    "instrumente": "Instrumente",
     "kontakt": "Kontakt"
+  },
+  "home": {
+    "subtitle": "Gitarrenbau",
+    "name": "Michael Dittmann",
+    "line1": "Ein Klang, der zu sich selbst zurückführt.",
+    "line2": "Konzertgitarren, von Hand gebaut.",
+    "philosophyTeaser": "Jedes Stück Holz hat seinen eigenen Charakter. Daraus ein Instrument zu formen, das den Spielenden Raum gibt — das ist mein Anliegen.",
+    "philosophyLink": "Philosophie",
+    "guitarsLabel": "Instrumente",
+    "guitarsTeaser": "Eine kleine Auswahl. Jede Gitarre entsteht einzeln, in Ruhe.",
+    "guitarsLink": "Alle Instrumente ansehen",
+    "contactLabel": "Kontakt",
+    "contactTeaser": "Jedes Instrument beginnt mit einem Gespräch.",
+    "contactLink": "Schreiben Sie mir"
   },
   "hero": {
     "name": "Michael Dittmann",
@@ -14,6 +29,7 @@
   },
   "philosophy": {
     "title": "Philosophie",
+    "lead": "Ein Instrument als stiller Raum.",
     "p1": "Jedes Stück Holz hat seinen eigenen Charakter.",
     "p2": "Hieraus ein Instrument zu formen, das den Spielenden Raum zur klanglichen Entfaltung gibt, ist der Grundgedanke meiner Arbeit.",
     "p3": "Die Basis bilden ausgewählte Tonhölzer, die sich seit Jahrzehnten in der Sammlung von Michael Wichmann befinden."
@@ -25,7 +41,8 @@
     "p3": "Nach ersten Instrumenten, die aus Neugier entstanden, führte mich mein Weg zu Michael Wichmann.\nSeitdem arbeite und lerne ich in seiner Werkstatt und entwickle dort meine eigene klangliche Handschrift im Gitarrenbau"
   },
   "construction": {
-    "title": "Bauweise",
+    "title": "Werkstatt",
+    "lead": "Material, Konstruktion, Hand.",
     "tonewood": {
       "title": "Tonhölzer",
       "text": "​Jedes Stück Holz bringt eigene Eigenschaften mit, die im Instrument berücksichtigt werden.\n\n\nFür die Decke kommen Fichte oder Zeder zum Einsatz, für Boden und Zargen sowohl tropische als auch heimische Hölzer aus dem über Jahrzehnte gewachsenen Bestand von Michael Wichmann.\n\nAusgewählte Tonhölzer bilden die Grundlage jeder Gitarre."
@@ -40,7 +57,9 @@
     }
   },
   "guitars": {
-    "title": "Verfügbare Gitarren",
+    "title": "Instrumente",
+    "lead": "Jede Gitarre ein eigener Klang.",
+    "specsLabel": "Spezifikationen",
     "inquiry": "Anfrage zu diesem Instrument",
     "guitar1": {
       "name": "Konzertgitarre",
@@ -78,14 +97,15 @@
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Ich freue mich auf Ihre Nachricht",
+    "lead": "Am Anfang steht ein Gespräch.",
+    "subtitle": "Persönlich, in Ruhe.",
     "email": "E-Mail",
     "phone": "Telefon",
     "name": "Ihr Name",
     "emailField": "Ihre E-Mail-Adresse",
     "message": "Ihre Nachricht",
     "send": "Nachricht senden",
-    "appointment": "Kontakt aufnehmen"
+    "appointment": "Schreiben Sie mir"
   },
   "instagram": {
     "title": "Einblicke",

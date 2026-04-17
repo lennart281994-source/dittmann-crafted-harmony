@@ -1,10 +1,25 @@
 {
   "nav": {
+    "home": "Home",
     "philosophie": "Philosophy",
     "ueber": "About",
-    "bauweise": "Craft",
-    "instrumente": "Guitars",
+    "bauweise": "Workshop",
+    "instrumente": "Instruments",
     "kontakt": "Contact"
+  },
+  "home": {
+    "subtitle": "Guitar Making",
+    "name": "Michael Dittmann",
+    "line1": "A sound that leads you back to yourself.",
+    "line2": "Concert guitars, built by hand.",
+    "philosophyTeaser": "Every piece of wood carries its own character. To shape an instrument that gives the player room — that is my work.",
+    "philosophyLink": "Philosophy",
+    "guitarsLabel": "Instruments",
+    "guitarsTeaser": "A small selection. Each guitar made one at a time, in quiet.",
+    "guitarsLink": "View all instruments",
+    "contactLabel": "Contact",
+    "contactTeaser": "Every instrument begins with a conversation.",
+    "contactLink": "Write to me"
   },
   "hero": {
     "name": "Michael Dittmann",
@@ -14,6 +29,7 @@
   },
   "philosophy": {
     "title": "Philosophy",
+    "lead": "An instrument as a quiet space.",
     "p1": "Every piece of wood has its own character.",
     "p2": "To shape an instrument from it that gives the player room for tonal expression — that is the core idea of my work.",
     "p3": "The foundation is formed by selected tonewoods that have been part of Michael Wichmann's collection for decades."
@@ -25,7 +41,8 @@
     "p3": "After initial instruments created out of curiosity, my path led me to Michael Wichmann.\nSince then, I have been working and learning in his workshop, developing my own tonal signature in guitar making there."
   },
   "construction": {
-    "title": "Craft",
+    "title": "Workshop",
+    "lead": "Material, construction, hand.",
     "tonewood": {
       "title": "Tonewoods",
       "text": "Every piece of wood brings its own properties, which are taken into account in the instrument.\n\n\nFor the top, spruce or cedar is used; for back and sides, both tropical and domestic woods from Michael Wichmann's collection, grown over decades.\n\nSelected tonewoods form the foundation of every guitar."
@@ -40,7 +57,9 @@
     }
   },
   "guitars": {
-    "title": "Available Guitars",
+    "title": "Instruments",
+    "lead": "Each guitar, a sound of its own.",
+    "specsLabel": "Specifications",
     "inquiry": "Inquire about this instrument",
     "guitar1": {
       "name": "Concert Guitar",
@@ -78,14 +97,15 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "I look forward to hearing from you",
+    "lead": "It begins with a conversation.",
+    "subtitle": "Personal, unhurried.",
     "email": "Email",
     "phone": "Phone",
     "name": "Your name",
     "emailField": "Your email address",
     "message": "Your message",
     "send": "Send message",
-    "appointment": "Get in touch"
+    "appointment": "Write to me"
   },
   "instagram": {
     "title": "Insights",
