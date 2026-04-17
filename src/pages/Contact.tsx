@@ -11,23 +11,16 @@ const Contact = () => {
   };
 
   return (
-    <section className="px-6 md:px-12 pt-40 md:pt-48 pb-16">
-      <div className="max-w-[1400px] mx-auto">
-        {/* Header */}
-        <div className="max-w-3xl mb-24 md:mb-32">
-          <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-8">
-            {t('nav.kontakt')}
-          </p>
-          <h1 className="font-serif text-5xl md:text-7xl text-foreground leading-[1.05]">
-            {t('contact.lead')}
-          </h1>
-          <p className="font-serif italic text-xl md:text-2xl text-muted-foreground mt-10 max-w-xl">
-            {t('process.contact.text')}
-          </p>
-        </div>
+    <section className="px-6 md:px-12 pt-40 md:pt-56 pb-16">
+      <div className="max-w-[1100px] mx-auto">
+        <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-12">
+          {t('nav.kontakt')}
+        </p>
+        <h1 className="font-serif text-4xl md:text-6xl text-foreground leading-[1.08] max-w-2xl mb-24 md:mb-32">
+          {t('contact.lead')}
+        </h1>
 
         <div className="grid md:grid-cols-12 gap-16 md:gap-24">
-          {/* Contact details */}
           <div className="md:col-span-5 space-y-12">
             <div>
               <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-3">
@@ -51,19 +44,12 @@ const Contact = () => {
                 +49 178 894 4568
               </a>
             </div>
-
-            <div className="pt-8 border-t border-border/60">
-              <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-                {t('process.experience.text')}
-              </p>
-            </div>
+            <p className="text-sm text-muted-foreground/80 leading-relaxed max-w-xs pt-8 border-t border-border/60">
+              {t('contact.studioNote')}
+            </p>
           </div>
 
-          {/* Form */}
           <div className="md:col-span-7">
-            <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-10">
-              {t('contact.appointment')}
-            </p>
             <form onSubmit={handleSubmit} className="space-y-10">
               <div>
                 <label className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-3 block">
