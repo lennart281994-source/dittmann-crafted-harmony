@@ -10,90 +10,68 @@
   "home": {
     "subtitle": "Guitar Making",
     "name": "Michael Dittmann",
-    "line1": "A sound that leads you back to yourself.",
-    "line2": "Concert guitars, built by hand.",
-    "philosophyTeaser": "Every piece of wood carries its own character. To shape an instrument that gives the player room — that is my work.",
+    "line": "Stillness, held in wood.",
+    "philosophyTeaser": "An instrument as a quiet space.\nA sound that leads you back.",
     "philosophyLink": "Philosophy",
     "guitarsLabel": "Instruments",
-    "guitarsTeaser": "A small selection. Each guitar made one at a time, in quiet.",
-    "guitarsLink": "View all instruments",
+    "guitar1Tease": "Bright, clear, immediate.",
+    "guitar2Tease": "Warm, velvet, open.",
+    "guitarsLink": "All instruments",
     "contactLabel": "Contact",
     "contactTeaser": "Every instrument begins with a conversation.",
-    "contactLink": "Write to me"
-  },
-  "hero": {
-    "name": "Michael Dittmann",
-    "subtitle": "Guitar Making",
-    "statement": "Handcrafted concert guitars",
-    "cta": "Get in touch"
+    "contactLink": "Write"
   },
   "philosophy": {
     "title": "Philosophy",
     "lead": "An instrument as a quiet space.",
     "p1": "Every piece of wood has its own character.",
-    "p2": "To shape an instrument from it that gives the player room for tonal expression — that is the core idea of my work.",
-    "p3": "The foundation is formed by selected tonewoods that have been part of Michael Wichmann's collection for decades."
+    "p2": "To shape an instrument from it that gives the player room — that is my work.",
+    "p3": "The foundation: selected tonewoods from Michael Wichmann's collection."
   },
   "about": {
     "title": "About",
-    "p1": "My fascination for the classical guitar began during my time in Asturias in northern Spain, where I worked on a sanctuary for donkeys.",
-    "p2": "The sound of a good guitar touches me again and again and leads me back to this place. In guitar making, I search for my own access to this sound.",
-    "p3": "After initial instruments created out of curiosity, my path led me to Michael Wichmann.\nSince then, I have been working and learning in his workshop, developing my own tonal signature in guitar making there."
+    "lead": "Behind every instrument, a person.",
+    "p1": "My fascination for the classical guitar began in Asturias, in northern Spain.",
+    "p2": "The sound of a good guitar leads me back to that place. In building, I look for my own way to it.",
+    "p3": "Today I learn and work in Michael Wichmann's workshop.",
+    "signature": "Michael Dittmann"
   },
   "construction": {
     "title": "Workshop",
-    "lead": "Material, construction, hand.",
+    "lead": "Material. Construction. Hand.",
     "tonewood": {
       "title": "Tonewoods",
-      "text": "Every piece of wood brings its own properties, which are taken into account in the instrument.\n\n\nFor the top, spruce or cedar is used; for back and sides, both tropical and domestic woods from Michael Wichmann's collection, grown over decades.\n\nSelected tonewoods form the foundation of every guitar."
+      "text": "Spruce or cedar for the top. Domestic and tropical woods for back and sides — from a collection grown over decades."
     },
     "structure": {
       "title": "Construction",
-      "text": "The construction follows the traditional Spanish guitar building method and is further developed through individual approaches and the targeted use of modern measurement techniques.\n\nA lightly built instrument with high vibrational capacity is at the centre, ensuring a direct response and an open sound.\n\n**The surfaces are hand-polished with shellac.**"
+      "text": "Traditional Spanish build. Lightly made, highly responsive.\nHand-polished with shellac."
     },
     "sound": {
       "title": "Playability",
-      "text": "To make a guitar a harmonious instrument, I tune all components so the sound can unfold freely.\n\nThe central focus is individual adjustment to the player's needs and ease of playability."
+      "text": "Every component tuned to the player. Direct response, easy access."
     }
   },
   "guitars": {
     "title": "Instruments",
     "lead": "Each guitar, a sound of its own.",
     "specsLabel": "Specifications",
-    "inquiry": "Inquire about this instrument",
+    "inquiry": "Inquire",
     "guitar1": {
       "name": "Concert Guitar",
-      "blurb": "A bright, clear sound with fine responsiveness. Lightly built, it responds immediately and makes every nuance audible.",
+      "blurb": "Bright, clear, immediate. Every nuance audible.",
       "description": "Top: Spruce\nBack & Sides: Birdseye Maple\nScale: 640 mm\nNut: 52 mm\nDesign and bracing after Torres FE19\nFrench polish (shellac)"
     },
     "guitar2": {
       "name": "Concert Guitar II",
-      "description": "Cedar top with maple body. An instrument with a velvety touch and surprising projection. Ideal for players seeking warmth and clarity."
+      "blurb": "Warm, velvet, with surprising projection.",
+      "description": "Top: Cedar\nBack & Sides: Maple\nFrench polish (shellac)"
     },
     "guitar3": {
       "name": "Concert Guitar III",
-      "description": "Spruce top with Ziricote. Extraordinary in sound and appearance. An instrument of character — powerful, nuanced, and of rare beauty."
+      "blurb": "Powerful, nuanced, of rare beauty.",
+      "description": "Top: Spruce\nBack & Sides: Ziricote\nFrench polish (shellac)"
     }
-  },
-  "process": {
-    "title": "Your Path to an Instrument",
-    "experience": {
-      "title": "Experience",
-      "text": "My available instruments can be tried at leisure by appointment at Michael Wichmann's shop in Hamburg or in 19294 Malliß."
-    },
-    "custom": {
-      "title": "Custom Build",
-      "p1": "I also build guitars individually tailored to you.",
-      "p2": "In a conversation — by phone or in person — we discuss your preferences and the various possibilities.",
-      "p3": "After the decision, the selection of woods follows.",
-      "p4": "Currently, the build time is approximately three months.",
-      "p5": "My work is accompanied by Michael Wichmann, with half a century of experience in guitar making."
-    },
-    "contact": {
-      "title": "Getting to Know",
-      "text": "It always starts with a conversation.\nWhether you are interested in an existing instrument or would like to have a new one made: Write to me or give me a call."
-    },
-    "cta": "Get in touch"
   },
   "contact": {
     "title": "Contact",
@@ -101,16 +79,12 @@
     "subtitle": "Personal, unhurried.",
     "email": "Email",
     "phone": "Phone",
-    "name": "Your name",
-    "emailField": "Your email address",
-    "message": "Your message",
-    "send": "Send message",
-    "appointment": "Write to me"
-  },
-  "instagram": {
-    "title": "Insights",
-    "subtitle": "From the workshop",
-    "follow": "Follow on Instagram"
+    "name": "Name",
+    "emailField": "Email",
+    "message": "Message",
+    "send": "Send",
+    "appointment": "Write to me",
+    "studioNote": "Instruments may be tried by appointment in Hamburg or Malliß."
   },
   "footer": {
     "rights": "All rights reserved",

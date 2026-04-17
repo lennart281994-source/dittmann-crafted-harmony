@@ -1,22 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import tonewoodImg from '@/assets/tonewood.png';
 import constructionImg from '@/assets/construction.png';
 import playabilityImg from '@/assets/dd8d9831-f076-494e-b7d3-d98c2baa4076.png';
-
-const renderText = (text: string) =>
-  text.split('\n\n').map((para, i) => {
-    const isBold = para.startsWith('**') && para.endsWith('**');
-    const clean = isBold ? para.slice(2, -2) : para;
-    return (
-      <p
-        key={i}
-        className={isBold ? 'font-serif italic text-foreground text-lg' : ''}
-      >
-        {clean}
-      </p>
-    );
-  });
 
 const Workshop = () => {
   const { t } = useTranslation();
@@ -30,21 +15,18 @@ const Workshop = () => {
   return (
     <>
       <section className="px-6 md:px-12 pt-40 md:pt-48 pb-24">
-        <div className="max-w-[1400px] mx-auto">
-          <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-8">
+        <div className="max-w-[1200px] mx-auto">
+          <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-12">
             {t('nav.bauweise')}
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl text-foreground leading-[1.05] max-w-3xl">
-            {t('construction.title')}
-          </h1>
-          <p className="font-serif italic text-xl md:text-2xl text-muted-foreground mt-10 max-w-2xl">
+          <h1 className="font-serif text-4xl md:text-6xl text-foreground leading-[1.08] max-w-2xl">
             {t('construction.lead')}
-          </p>
+          </h1>
         </div>
       </section>
 
       <section className="px-6 md:px-12 pb-16">
-        <div className="max-w-[1400px] mx-auto space-y-32 md:space-y-44">
+        <div className="max-w-[1200px] mx-auto space-y-32 md:space-y-48">
           {items.map((item, i) => {
             const reverse = i % 2 === 1;
             return (
@@ -67,60 +49,16 @@ const Workshop = () => {
                   <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-5">
                     {String(i + 1).padStart(2, '0')}
                   </p>
-                  <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
+                  <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
                     {t(`construction.${item.key}.title`)}
                   </h2>
-                  <div className="space-y-5 text-base text-muted-foreground leading-relaxed">
-                    {renderText(t(`construction.${item.key}.text`))}
-                  </div>
+                  <p className="text-base text-muted-foreground leading-relaxed whitespace-pre-line">
+                    {t(`construction.${item.key}.text`)}
+                  </p>
                 </div>
               </article>
             );
           })}
-        </div>
-      </section>
-
-      {/* Process — calm, structured */}
-      <section className="px-6 md:px-12 py-32 md:py-44 mt-16 border-t border-border/60">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-10 text-center">
-            {t('process.title')}
-          </p>
-
-          <div className="space-y-20">
-            <div>
-              <h3 className="font-serif text-2xl text-foreground mb-4">
-                {t('process.experience.title')}
-              </h3>
-              <p className="text-base text-muted-foreground leading-relaxed">
-                {t('process.experience.text')}
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-serif text-2xl text-foreground mb-4">
-                {t('process.custom.title')}
-              </h3>
-              <div className="space-y-4 text-base text-muted-foreground leading-relaxed">
-                <p>{t('process.custom.p1')}</p>
-                <p>{t('process.custom.p2')}</p>
-                <p>{t('process.custom.p3')}</p>
-                <p>{t('process.custom.p4')}</p>
-                <p className="italic font-serif text-foreground/80">
-                  {t('process.custom.p5')}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-20 text-center">
-            <Link
-              to="/kontakt"
-              className="text-[10px] tracking-widest-plus uppercase text-muted-foreground border-b border-border pb-1 hover:text-foreground hover:border-foreground/40 transition-colors"
-            >
-              {t('process.cta')} —
-            </Link>
-          </div>
         </div>
       </section>
     </>

@@ -15,6 +15,7 @@ const SiteFooter = () => {
     { key: 'instrumente', to: '/instrumente' },
     { key: 'philosophie', to: '/philosophie' },
     { key: 'bauweise', to: '/werkstatt' },
+    { key: 'ueber', to: '/ueber' },
     { key: 'kontakt', to: '/kontakt' },
   ];
 

@@ -7,26 +7,7 @@ import guitar1Img from '@/assets/guitar1.png';
 type Guitar = {
   key: string;
   images: string[];
-  hasSpecs: boolean;
 };
-
-const PageHeader = ({ eyebrow, title, lead }: { eyebrow: string; title: string; lead?: string }) => (
-  <div className="px-6 md:px-12 pt-40 md:pt-48 pb-20 md:pb-32">
-    <div className="max-w-[1400px] mx-auto">
-      <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-8">
-        {eyebrow}
-      </p>
-      <h1 className="font-serif text-5xl md:text-7xl text-foreground leading-[1.05] max-w-3xl">
-        {title}
-      </h1>
-      {lead && (
-        <p className="font-serif italic text-xl md:text-2xl text-muted-foreground mt-10 max-w-2xl">
-          {lead}
-        </p>
-      )}
-    </div>
-  </div>
-);
 
 const Carousel = ({ images, alt }: { images: string[]; alt: string }) => {
   const [i, setI] = useState(0);
@@ -70,21 +51,26 @@ const Instruments = () => {
   const { t } = useTranslation();
 
   const guitars: Guitar[] = [
-    { key: 'guitar1', images: [guitar1Img], hasSpecs: true },
-    { key: 'guitar2', images: [], hasSpecs: false },
-    { key: 'guitar3', images: [], hasSpecs: false },
+    { key: 'guitar1', images: [guitar1Img] },
+    { key: 'guitar2', images: [] },
+    { key: 'guitar3', images: [] },
   ];
 
   return (
     <>
-      <PageHeader
-        eyebrow={t('nav.instrumente')}
-        title={t('guitars.title')}
-        lead={t('guitars.lead')}
-      />
+      <section className="px-6 md:px-12 pt-40 md:pt-48 pb-24">
+        <div className="max-w-[1200px] mx-auto">
+          <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-12">
+            {t('nav.instrumente')}
+          </p>
+          <h1 className="font-serif text-4xl md:text-6xl text-foreground leading-[1.08] max-w-2xl">
+            {t('guitars.lead')}
+          </h1>
+        </div>
+      </section>
 
-      <div className="px-6 md:px-12 pb-16">
-        <div className="max-w-[1400px] mx-auto space-y-40 md:space-y-56">
+      <section className="px-6 md:px-12 pb-16">
+        <div className="max-w-[1200px] mx-auto space-y-40 md:space-y-56">
           {guitars.map((g, i) => {
             const desc = t(`guitars.${g.key}.description`, { defaultValue: '' });
             const blurb = t(`guitars.${g.key}.blurb`, { defaultValue: '' });
@@ -93,7 +79,7 @@ const Instruments = () => {
             return (
               <article
                 key={g.key}
-                className="grid md:grid-cols-12 gap-10 md:gap-16 items-center"
+                className="grid md:grid-cols-12 gap-10 md:gap-20 items-center"
               >
                 <div className={`md:col-span-7 ${reverse ? 'md:order-2' : ''}`}>
                   {g.images.length > 0 ? (
@@ -107,32 +93,25 @@ const Instruments = () => {
                   <p className="text-[10px] tracking-widest-plus uppercase text-muted-foreground mb-5">
                     {String(i + 1).padStart(2, '0')}
                   </p>
-                  <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-8">
+                  <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-8">
                     {t(`guitars.${g.key}.name`)}
                   </h2>
 
                   {blurb && (
-                    <p className="font-serif italic text-xl text-foreground/80 leading-relaxed mb-10">
+                    <p className="font-serif italic text-xl text-foreground/85 leading-relaxed mb-12">
                       {blurb}
                     </p>
                   )}
 
-                  {!blurb && desc && (
-                    <p className="text-base text-muted-foreground leading-relaxed mb-10">
-                      {desc}
-                    </p>
-                  )}
-
-                  {/* Specs — secondary, reduced */}
-                  {g.hasSpecs && desc && (
-                    <details className="group border-t border-border/60 pt-6 mb-10">
+                  {desc && (
+                    <details className="group border-t border-border/60 pt-5 mb-10">
                       <summary className="cursor-pointer list-none flex items-center justify-between text-[10px] tracking-widest-plus uppercase text-muted-foreground hover:text-foreground transition-colors">
                         <span>{t('guitars.specsLabel')}</span>
                         <span className="font-serif text-lg leading-none transition-transform duration-500 group-open:rotate-45">
                           +
                         </span>
                       </summary>
-                      <div className="mt-6 text-sm text-muted-foreground/90 leading-relaxed whitespace-pre-line">
+                      <div className="mt-5 text-xs md:text-sm text-muted-foreground/80 leading-relaxed whitespace-pre-line">
                         {desc}
                       </div>
                     </details>
@@ -149,7 +128,7 @@ const Instruments = () => {
             );
           })}
         </div>
-      </div>
+      </section>
     </>
   );
 };
