@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Instruments from "./pages/Instruments";
 import Philosophy from "./pages/Philosophy";
 import Workshop from "./pages/Workshop";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/instrumente" element={<Instruments />} />
             <Route path="/philosophie" element={<Philosophy />} />
             <Route path="/werkstatt" element={<Workshop />} />
+            <Route path="/ueber" element={<About />} />
             <Route path="/kontakt" element={<Contact />} />
           </Route>
           <Route path="*" element={<NotFound />} />
